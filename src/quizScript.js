@@ -42,13 +42,13 @@ function getResult(){
     if (q8 && q8.value === '3') count+=3;
     
     let result = '';
-    if(count >= 8 && count < 12){
+    if(count >= 8 && count < 13){
         resultText = 'You should try a pumpkin spice latte!';
-    }else if(count>=12 && count <16){
+    }else if(count>=13 && count <16){
         resultText = 'You should try apple cider!';
-    }else if(count >=16 && count < 20){
+    }else if(count >=16 && count < 19){
         resultText = 'You should try chai!';
-    }else if(count >= 20 && count <= 24){
+    }else if(count >= 19 && count <= 24){
         resultText = 'You should try a London Fog!';
     }
     document.getElementById('result').innerText = resultText;
