@@ -6,8 +6,10 @@
         <title>Autumn Personality Quiz!</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="quizstyles.css">
         <link rel="stylesheet" href="styles.css">
     </head>
+
     <body>
         <header>
             <nav>
@@ -19,7 +21,7 @@
     
         <div class="quiz">
             <h1>What Autumn Drink Should You Try?</h1>
-            <form>
+            <form class = "questions">
                 <div class = "question">
                     <p>What are you looking forward to most during autumn?</p>
                     <label>
@@ -116,9 +118,9 @@
                         <input type = "radio" name = "q8" value = "3"> Salted caramel
                     </label>
                 </div>
-                
+                <div id="buttondiv">
                 <button class = "submit-button" type = "button" onclick = "getResult()">Get Results!</button>
-
+            </div>
             </form>
 
             <div id="result"></div>

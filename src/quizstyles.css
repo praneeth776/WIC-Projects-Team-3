@@ -1,0 +1,26 @@
+body{
+   display:flex;
+   justify-content:center;
+   
+  
+}
+.quiz{
+    margin-top: 50px;
+    padding: 20px;
+    border: 5px solid 
+}
+header a{
+    text-align:center;
+    padding:5px;
+}
+#buttondiv{
+    display:flex;
+    justify-content: center;
+    margin-top:20px;
+    
+   
+}
+#result{
+    text-align:center;
+    margin-top: 10px;
+}
