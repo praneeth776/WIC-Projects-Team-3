@@ -15,5 +15,5 @@
 - **songScript.js** Song page script
 - **styles.css** General site stylesheet
 ## Contact and Credits
-- **Cindy Zhang:** CSS, Index/Mood board page
-- **Tammy Khong:** CSS, Song and Quiz pages
+- **Cindy Zhang/czhang0003:** CSS, Index/Mood board page
+- **Tammy Khong/@bread-muncher:** CSS, Song and Quiz pages
