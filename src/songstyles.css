@@ -1,0 +1,14 @@
+.songbutton{
+    background-color: #432818;
+    border: none;
+    color: #FFE6A7;
+    padding:15px 25px;
+    border-radius: 10px;
+    font-size:20px;
+    cursor:pointer;
+    
+}
+#songdiv{
+    
+    margin-top:40px;
+}

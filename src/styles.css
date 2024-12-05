@@ -3,12 +3,16 @@ body{
 }
 header a{
     padding:5px 10px;
-    color: #ffffff;
+    color: #FFE6A7;
     background-color:#6f1d1b;
     font-size:20px;
     text-decoration:none;
     margin: 5px 15px;
     border-radius: 5px;
+}
+.caption{
+    margin-top: -5px;
+    color: #432818;
 }
 header{
     margin-top:30px;
@@ -16,4 +20,14 @@ header{
 
 h1 {
     color: #6f1d1b
+}
+
+h1, h2, button, p, a, label{
+    font-family: 'Courier New', Courier, monospace;
+}
+a, h1, button{
+    font-weight: 900;
+}
+p{
+    font-weight: 600;
 }
